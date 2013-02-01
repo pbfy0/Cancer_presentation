@@ -53,6 +53,14 @@ time, mark, audio, video {
 	text-align: center;
 }
 
+td, th {
+	padding-right: 20px;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
 p {
 	text-indent: 50px;
 }
@@ -63,6 +71,9 @@ p {
 
 .wi.active {
 	opacity: 1 !important;
+}
+#vocab.active {
+	font-size: 200%;
 }
 
 /*.wi {
@@ -81,9 +92,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
 blockquote, q {
     quotes: none;
 }
@@ -96,6 +104,7 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+	border: 1px solid black;
 }
 
 /*
@@ -211,7 +220,7 @@ a:focus {
 */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.1;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
